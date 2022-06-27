@@ -5,9 +5,10 @@ import { AppComponent } from './app.component';
 import { NxWelcomeComponent } from './nx-welcome.component';
 import { HttpClientModule } from '@angular/common/http';
 import { RoutingModule } from './routing.module';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
-  declarations: [AppComponent, NxWelcomeComponent],
+  declarations: [AppComponent, NxWelcomeComponent, HomeComponent],
   imports: [BrowserModule, HttpClientModule, RoutingModule],
   providers: [],
   bootstrap: [AppComponent],
