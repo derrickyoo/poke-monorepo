@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Message } from '@pokemon/api-interfaces';
+import { Message } from '@pomo/api-interfaces';
 
 @Component({
-  selector: 'pokemon-root',
+  selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
 })

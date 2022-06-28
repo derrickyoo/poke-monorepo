@@ -1,7 +1,7 @@
 {
   "projectType": "application",
   "sourceRoot": "apps/dashboard/src",
-  "prefix": "pokemon",
+  "prefix": "app",
   "targets": {
     "build": {
       "executor": "@angular-devkit/build-angular:browser",

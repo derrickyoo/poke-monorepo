@@ -1,6 +1,6 @@
 import { Controller, Get } from '@nestjs/common';
 
-import { Message } from '@pokemon/api-interfaces';
+import { Message } from '@pomo/api-interfaces';
 
 import { AppService } from './app.service';
 
